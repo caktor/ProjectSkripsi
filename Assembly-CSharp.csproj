@@ -188,9 +188,10 @@
      <Compile Include="Assets\Game 5\Scripts\SetScore2.cs" />
      <Compile Include="Assets\Game 5\Scripts\SlingShot.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\clickcontrol.cs" />
+     <Compile Include="Assets\Game 6\Scripts\Chapter6\GameNilai.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\hintmater.cs" />
-     <Compile Include="Assets\Game 6\Scripts\Chapter6\Nilai.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\PointClick.cs" />
+     <Compile Include="Assets\Game 6\Scripts\Chapter6\scoreSaver.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\trackingclicks.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\Waktu.cs" />
      <Compile Include="Assets\Scripts\ScrollRact.cs" />

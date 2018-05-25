@@ -7,7 +7,7 @@ public class FinishLine : MonoBehaviour {
 
 	//public PlayerController player;
 
-	public AudioSource audio;
+	//public AudioSource audio;
 
 	// Use this for initialization
 	void Update()
@@ -23,7 +23,7 @@ public class FinishLine : MonoBehaviour {
 		{
 			FinishScreen.SetActive (true);
 			//player.gameObject.SetActive (false);
-			audio.gameObject.SetActive (false);
+			//audio.gameObject.SetActive (false);
 		}
 	}
 }

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class clickcontrol : MonoBehaviour {
 
@@ -8,9 +9,8 @@ public class clickcontrol : MonoBehaviour {
 	public GameObject objectnametext;
 	public Transform objectnametextPos;
 	public Transform succesclick;
-	Nilai tambahNilai;
-	public int randNumb = 0;
 
+	public int randNumb = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +21,6 @@ public class clickcontrol : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		tambahNilai = GetComponent<Nilai> ();
 
 		if (hintmater.hintused == "y")
 		{
@@ -183,7 +182,9 @@ public class clickcontrol : MonoBehaviour {
 
 		Destroy (gameObject);
 		Destroy (objectnametext);
-		GameObject.FindObjectOfType<Nilai> ().Score+=10;
+
+		GameObject.FindObjectOfType<GameNilai> ().ScoreNilai+=10;	
+		
 		trackingclicks.totalclicks = 0;
 		Instantiate (succesclick, objectnametextPos.position, succesclick.rotation);
 	}

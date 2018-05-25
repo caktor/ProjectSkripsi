@@ -7,10 +7,12 @@ public class Waktu : MonoBehaviour {
 
 	public float startingTime;
 	private float countingTime;
+		public static int totalclicks = 0;	
+
+	public GameObject gameover;
 
 	private Text theText;
 
-	public GameObject gameOverScreen;
 
 	//public PlayerController player;
 
@@ -33,11 +35,20 @@ public class Waktu : MonoBehaviour {
 
 		if (countingTime <= 0) 
 		{
-			gameOverScreen.SetActive (true);
+			gameover.SetActive (true);
 			//player.gameObject.SetActive (false);
 
 		}
-
+		if (Input.GetKeyDown (KeyCode.Mouse0)) 
+		{
+			totalclicks += 1;
+		}
+	
+		if (totalclicks >= 20) 
+		{
+			gameover.SetActive(true);
+			totalclicks = 0;
+		}
 		theText.text = "" + Mathf.Round (countingTime);
 	}
 		

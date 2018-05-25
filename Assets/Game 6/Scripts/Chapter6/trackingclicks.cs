@@ -5,6 +5,7 @@ public class trackingclicks : MonoBehaviour {
 
 	public static int totalclicks = 0;
 	public KeyCode mouseclick;
+	public GameObject gameover;
 
 	// Use this for initialization
 	void Start () {
@@ -19,9 +20,9 @@ public class trackingclicks : MonoBehaviour {
 			totalclicks += 1;
 		}
 	
-		if (totalclicks >= 100) 
+		if (totalclicks >= 20) 
 		{
-			Debug.Log ("FAIL Boss");
+			
 			totalclicks = 0;
 		}
 	}
