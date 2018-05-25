@@ -4,13 +4,25 @@ using UnityEngine;
 
 public class JawabC1 : MonoBehaviour {
 	private List<string> pilihanC = new List<string>(){
-		"H<size=30>2</size>S","Ca(OH)<size=30>2</size>","HCCOH", "HCN","KBr",
-		"MgCO<size=30>3</size>","NH<size=30>3</size>", "NaI",
-		"K<size=30>2</size>CO<size=30>3</size>","CH<size=30>3</size>COOK",
-		"H<size=30>3</size>PO<size=30>4</size>",
-		"KBr","CaCl<size=30>2</size>","HF", "K<size=30>2</size>CO<size=30>3</size>",
-		"CaCO<size=30>3</size>","AlPO<size=30>4</size>", "H<size=30>2</size>SO<size=30>4</size>", 
-		"MgCl<size=30>2</size>", "NH<size=30>4</size>CN"
+"c.  Reaksi yang menyebabkan garam terdisosiasi \nmenjadi ion-ionnya"
+,"c. Karena KCl jika direaksikan dengan air tidak \nakan bereaksi membentuk KOH maupun HCl kembali, melainkan terdisosiasi membenuk ion K<size=20>+</size> dan Cl<size=20>-</size>."
+,"c. Karena NH<size=20>4</size>CN berasal dari asam lemah – basa kuat"
+,"c. Karena CH<size=20>3</size>COONa berasal dari asam lemah – basa kuat"
+,"c. NH<size=20>4</size>Br"
+,"c. NH<size=20>4</size>CH<size=20>3</size>COO"
+,"c. CH<size=20>3</size>COOK"
+,"c. CH<size=20>3</size>COONH<size=20>4</size>"
+,"c. NH<size=20>4</size>F"
+,"c. CaSO<size=20>4</size>"
+,"c. Termasuk garam yang mengalami hidrolisis sempurna"
+,"c. Termasuk garam yang mengalami hidrolisis sempurna"
+,"c. Termasuk garam yang mengalami hidrolisis sempurna"
+,"c. CH<size=20>3</size>COOH dan Mg(OH)<size=20>2</size>"
+,"c. H<size=20>2</size>SO<size=20>4</size> dan Mg(OH)<size=20>2</size>"
+,"c. H<size=20>2</size>SO<size=20>4</size> dan Mg(OH)<size=20>2</size>"
+,"c. Akan menghasilkan garam yang terhidrolisis sebagian"
+,"c. Akan menghasilkan garam yang terhidrolisis sebagian"
+,"c. Akan menghasilkan garam yang terhidrolisis sebagian"
 	};
 	void Update()
 	{

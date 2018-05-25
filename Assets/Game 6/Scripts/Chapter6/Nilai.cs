@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class Nilai : MonoBehaviour {
 
-	Text text;
+	private Text text;
 	public static int poinAmount;
 
-	public static int score;
+	private static int score;
 	public int Score
 	{
 		set
@@ -27,10 +27,11 @@ public class Nilai : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		text = GetComponent<Text> ();
+		text.text = score.ToString ();
 	}
 
 	// Update is called once per frame
 	void Update () {
-		text.text = poinAmount.ToString ();
+		text.text = score.ToString ();
 	}
 }

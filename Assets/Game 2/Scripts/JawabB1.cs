@@ -5,14 +5,25 @@ using UnityEngine;
 public class JawabB1 : MonoBehaviour {
 
 	private List<string> pilihanB = new List<string>(){
-		"HF","KOH","NaCl","NH<size=30>4</size>OH", "H<size=30>2</size>O", 
-		"H<size=30>2</size>","Zn(OH)<size=30>2</size>",
-		"H<size=30>2</size>C<size=30>2</size>O<size=30>4</size>",
-		"H<size=30>3</size>O<size=30>+</size>",
-		"LiOH", "CaS", "KCl", "NaNO<size=30>3</size>" ,"AlCl<size=30>3</size>" ,"HCOOH",
-		 "CH<size=30>3</size>COONH<size=30>4</size>",
-		 "H<size=30>3</size>PO<size=30>4</size>", "Na<size=30>2</size>SO<size=30>4</size>",
-		 "MgCO<size=30>3</size>","KCN"
+"b.	Reaksi yang terjadi antara suatu senyawa \ndan air dengan membentuk reaksi kesetimbangan"
+,"b. Karena KCl jika direaksikan dengan air akan \nmembentuk KOH, ion H<size=20>+</size>, dan ion Cl<size=20>-</size>"
+,"b. Karena NH<size=20>4</size>CN tidak akan terhidrolisis"
+,"b. Karena CH<size=20>3</size>COONa jika direaksikan dengan air \nakan membentuk CH<size=20>3</size>COOH dan ion Na<size=20>+</size>, dan ion OH<size=20>+</size>"
+,"b. (NH<size=20>4</size>)<size=20>2</size>S"
+,"b. NaNO<size=20>3</size>"
+,"b. NH<size=20>4</size>NO<size=20>3</size>"
+,"b. (CH<size=20>3</size>COO)<size=20>2</size>Ca"
+,"b. (NH<size=20>4</size>)<size=20>2</size>SO<size=20>4</size>"
+,"b. CaBr<size=20>2</size>"
+,"b. Termasuk garam yang mengalami hidrolisis sebagian"
+,"b. Termasuk garam yang mengalami hidrolisis sebagian"
+,"b. Termasuk garam yang mengalami hidrolisis sebagian"
+,"b. HCN dan NH<size=20>4</size>OH"
+,"b. HCN dan NH<size=20>4</size>OH"
+,"b. HCN dan NaOH"
+,"b. Akan menghasilkan garam yang terhidrolisis sempurna"
+,"b. Akan menghasilkan garam yang terhidrolisis sempurna"
+,"b. Akan menghasilkan garam yang terhidrolisis sempurna"
 	};
 	void Update()
 	{

@@ -6,10 +6,25 @@ public class JawabA1 : MonoBehaviour {
 
 	
 	private List<string> pilihanA = new List<string>(){
-		"KF","HF","NaOH","CuSO<size=30>4</size>","H<size=30>3</size>PO<size=30>4</size>",
-		"O<size=30>2</size>","CH<size=30>3</size>COOH", "AgOH","Al(OH)<size=30>3</size>",
-		"Mg(OH)<size=30>2</size>","KF","KI","Ca(OH)<size=30>2</size>","BaF<size=30>2</size>",
-		"CaBr<size=30>2</size>","AgNO<size=30>3</size>", "Ca3(PO4)2","K2SO4","Mg(OH)<size=30>2</size>","HCN"
+"a.	Reaksi antara air dengan ion-ion yang berasal \ndari asam lemah atau basa lemah suatu garam"
+,"a. Karena KCl jika direaksikan dengan air akan \nmembentuk KOH dan HCl"
+,"a. Karena NH<size=20>4</size>CN akan terdisosiasi menjadi ion-ion \ndan bereaksi dengan air membentuk NH<size=20>4</size>OH dan HCN kembali"
+,"a. Karena CH<size=20>3</size>COONa akan terdisosiasi menjadi ion2\n dan bereaksi dengan air membentuk CH<size=20>3</size>COOH dan NaOH kembali"
+,"a. NH<size=15>4</size>Cl"
+,"a. KI"
+,"a. CaSO<size=20>4</size>"
+,"a. (NH<size=20>4</size>)<size=20>3</size>PO<size=20>4</size>"
+,"a. Na<size=20>3</size>PO<size=20>4</size>"
+,"a. K<size=20>2</size>SO<size=20>4</size>"
+,"a. Termasuk garam tidak terhidrolisis"
+,"a. Termasuk garam tidak terhidrolisis"
+,"a. Termasuk garam tidak terhidrolisis"
+,"a. HI dan Ca(OH)<size=20>2</size>"
+,"a. HI dan Ca(OH)<size=20>2</size>"
+,"a. HI dan Ca(OH)<size=20>2</size>"
+,"a. Akan menghasilkan garam yang tidak terhidrolisis"
+,"a. Akan menghasilkan garam yang tidak terhidrolisis"
+,"a. Akan menghasilkan garam yang tidak terhidrolisis"
 	};
 
     public List<string> PilihanA

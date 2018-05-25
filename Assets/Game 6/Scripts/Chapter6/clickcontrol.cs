@@ -183,7 +183,7 @@ public class clickcontrol : MonoBehaviour {
 
 		Destroy (gameObject);
 		Destroy (objectnametext);
-		GameObject.FindObjectOfType<Nilai> ().Score++;
+		GameObject.FindObjectOfType<Nilai> ().Score+=10;
 		trackingclicks.totalclicks = 0;
 		Instantiate (succesclick, objectnametextPos.position, succesclick.rotation);
 	}

@@ -71,7 +71,7 @@ public class TextControl : MonoBehaviour {
 		scoreQuizLabel.GetComponent<TextMesh>().text = "Score :"+ akumulasi;
 		scoreQuiz=akumulasi;
 		if(randQuestion ==-1){
-			randQuestion = UnityEngine.Random.Range(0,20);
+			randQuestion = UnityEngine.Random.Range(0,19);
 			for(int i=0;i<20;i++){
 				if(randQuestion!=previousQuestion[i]){
 					
