@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_1;UNITY_2017_3;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -53,30 +53,146 @@
   <ItemGroup>
      <Compile Include="Assets\Book-Page Curl\scripts\AutoFlip.cs" />
      <Compile Include="Assets\Book-Page Curl\scripts\Book.cs" />
+     <Compile Include="Assets\Game 1\Scripts\AudioController.cs" />
+     <Compile Include="Assets\Game 1\Scripts\auraControl.cs" />
+     <Compile Include="Assets\Game 1\Scripts\BackAndroid.cs" />
+     <Compile Include="Assets\Game 1\Scripts\CameraAspect.cs" />
+     <Compile Include="Assets\Game 1\Scripts\GameManager1.cs" />
+     <Compile Include="Assets\Game 1\Scripts\InstruksiControl.cs" />
+     <Compile Include="Assets\Game 1\Scripts\JawabA.cs" />
+     <Compile Include="Assets\Game 1\Scripts\JawabB.cs" />
+     <Compile Include="Assets\Game 1\Scripts\JawabC.cs" />
+     <Compile Include="Assets\Game 1\Scripts\JawabD.cs" />
+     <Compile Include="Assets\Game 1\Scripts\nextButton.cs" />
+     <Compile Include="Assets\Game 1\Scripts\ObjectMove.cs" />
+     <Compile Include="Assets\Game 1\Scripts\OpenLevel.cs" />
+     <Compile Include="Assets\Game 1\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Game 1\Scripts\SetScore.cs" />
+     <Compile Include="Assets\Game 1\Scripts\TextControl.cs" />
+     <Compile Include="Assets\Game 2\Scripts\AudioController1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\auraControl1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\BackAndroid1.cs" />
      <Compile Include="Assets\Game 2\Scripts\blade.cs" />
+     <Compile Include="Assets\Game 2\Scripts\CameraAspect1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\destoyer.cs" />
      <Compile Include="Assets\Game 2\Scripts\Fruit.cs" />
+     <Compile Include="Assets\Game 2\Scripts\InstruksiControl1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\JawabA1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\JawabB1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\JawabC1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\JawabD1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\nextButton1.cs" />
      <Compile Include="Assets\Game 2\Scripts\ObjectSpawner.cs" />
+     <Compile Include="Assets\Game 2\Scripts\OpenLevel1.cs" />
+     <Compile Include="Assets\Game 2\Scripts\RunningTime.cs" />
+     <Compile Include="Assets\Game 2\Scripts\slicecontroler.cs" />
      <Compile Include="Assets\Game 2\Scripts\statsScore.cs" />
-     <Compile Include="Assets\Game 2\Scripts\TimeControllerSlashGame.cs" />
-     <Compile Include="Assets\Scripts\Chapter3\CameraController.cs" />
-     <Compile Include="Assets\Scripts\Chapter3\DeathMenu.cs" />
-     <Compile Include="Assets\Scripts\Chapter3\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Chapter3\PlatformDestroyer.cs" />
-     <Compile Include="Assets\Scripts\Chapter3\PlatformGenerator.cs" />
-     <Compile Include="Assets\Scripts\Chapter3\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Chapter4\New Folder\AnswerButton.cs" />
-     <Compile Include="Assets\Scripts\Chapter4\New Folder\AnswerData.cs" />
-     <Compile Include="Assets\Scripts\Chapter4\New Folder\DataController.cs" />
-     <Compile Include="Assets\Scripts\Chapter4\New Folder\GameController.cs" />
-     <Compile Include="Assets\Scripts\Chapter4\New Folder\QuestionData.cs" />
-     <Compile Include="Assets\Scripts\Chapter4\New Folder\RoundData.cs" />
-     <Compile Include="Assets\Scripts\Chapter4\New Folder\SimpleObjectPool.cs" />
-     <Compile Include="Assets\Scripts\Chapter6\clickcontrol.cs" />
-     <Compile Include="Assets\Scripts\Chapter6\hintmater.cs" />
-     <Compile Include="Assets\Scripts\Chapter6\Nilai.cs" />
-     <Compile Include="Assets\Scripts\Chapter6\trackingclicks.cs" />
-     <Compile Include="Assets\Scripts\Chapter6\Waktu.cs" />
-     <Compile Include="Assets\Scripts\MoveScene.cs" />
+     <Compile Include="Assets\Game 2\Scripts\TextControl1.cs" />
+     <Compile Include="Assets\Game 3\Scripts\Chapter3\CameraFollow.cs" />
+     <Compile Include="Assets\Game 3\Scripts\Chapter3\DieLine.cs" />
+     <Compile Include="Assets\Game 3\Scripts\Chapter3\FinishLine.cs" />
+     <Compile Include="Assets\Game 3\Scripts\Chapter3\minuspoin.cs" />
+     <Compile Include="Assets\Game 3\Scripts\Chapter3\PlayerController.cs" />
+     <Compile Include="Assets\Game 3\Scripts\Chapter3\poincollect.cs" />
+     <Compile Include="Assets\Game 3\Scripts\Chapter3\ScoreTextScript.cs" />
+     <Compile Include="Assets\Game 3\Scripts\Chapter3\TimeManager.cs" />
+     <Compile Include="Assets\Game 3\Scripts\MoveScene.cs" />
+     <Compile Include="Assets\Game 3\Scripts\New Folder\AnswerButton.cs" />
+     <Compile Include="Assets\Game 3\Scripts\New Folder\AnswerData.cs" />
+     <Compile Include="Assets\Game 3\Scripts\New Folder\DataController.cs" />
+     <Compile Include="Assets\Game 3\Scripts\New Folder\GameController.cs" />
+     <Compile Include="Assets\Game 3\Scripts\New Folder\QuestionData.cs" />
+     <Compile Include="Assets\Game 3\Scripts\New Folder\RoundData.cs" />
+     <Compile Include="Assets\Game 3\Scripts\New Folder\SimpleObjectPool.cs" />
+     <Compile Include="Assets\Game 5\BelajarInputTouch.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\base\AbstractGoTween.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\base\AbstractGoTweenCollection.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseBack.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseBounce.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseCircular.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseCubic.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseElastic.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseExponential.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseLinear.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseQuadratic.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseQuartic.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseQuintic.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\easing\GoEaseSinusoidal.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoDuplicatePropertyRuleType.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoEaseType.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoLogLevel.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoLookAtType.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoLoopType.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoShakeType.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoSplineType.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoTweenState.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\enums\GoUpdateType.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\extensions\GoKitTweenExtensions.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\Go.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\GoDummyPath.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\GoTween.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\GoTweenChain.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\GoTweenCollectionConfig.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\GoTweenConfig.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\GoTweenFlow.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\abstracts\AbstractColorTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\abstracts\AbstractQuaternionTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\abstracts\AbstractTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\abstracts\AbstractVector3TweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\ColorTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\FloatTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\IGenericProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\IntTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\Vector2TweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\Vector3PathTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\Vector3TweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\Vector3XTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\Vector3YTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\Vector3ZTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\genericTypes\Vector4TweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\GoTweenUtils.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\smoothing\GoSmoothedQuaternion.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\smoothing\GoSmoothedVector3.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\smoothing\GoSmoothingType.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\EulerAnglesTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\MaterialColorTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\PositionPathTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\PositionTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\RotationQuaternionTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\RotationTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\ScalePathTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\ScaleTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\specificTypes\ShakeTweenProperty.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\splines\AbstractGoSplineSolver.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\splines\GoSpline.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\splines\GoSplineCatmullRomSolver.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\splines\GoSplineCubicBezierSolver.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\splines\GoSplineQuadraticBezierSolver.cs" />
+     <Compile Include="Assets\Game 5\Plugins\GoKit\properties\splines\GoSplineStraightLineSolver.cs" />
+     <Compile Include="Assets\Game 5\Scripts\AudioController2.cs" />
+     <Compile Include="Assets\Game 5\Scripts\BackAndroid2.cs" />
+     <Compile Include="Assets\Game 5\Scripts\balonController.cs" />
+     <Compile Include="Assets\Game 5\Scripts\CameraAspect2.cs" />
+     <Compile Include="Assets\Game 5\Scripts\CameraFixAspectRatio.cs" />
+     <Compile Include="Assets\Game 5\Scripts\CameraFollow1.cs" />
+     <Compile Include="Assets\Game 5\Scripts\CameraMove.cs" />
+     <Compile Include="Assets\Game 5\Scripts\CameraPinchToZoom.cs" />
+     <Compile Include="Assets\Game 5\Scripts\Constants.cs" />
+     <Compile Include="Assets\Game 5\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Game 5\Scripts\Enums.cs" />
+     <Compile Include="Assets\Game 5\Scripts\GameManager2.cs" />
+     <Compile Include="Assets\Game 5\Scripts\InstruksiControl2.cs" />
+     <Compile Include="Assets\Game 5\Scripts\OpenLevel2.cs" />
+     <Compile Include="Assets\Game 5\Scripts\ParallaxScrolling.cs" />
+     <Compile Include="Assets\Game 5\Scripts\Projectile.cs" />
+     <Compile Include="Assets\Game 5\Scripts\SetScore2.cs" />
+     <Compile Include="Assets\Game 5\Scripts\SlingShot.cs" />
+     <Compile Include="Assets\Game 6\Scripts\Chapter6\clickcontrol.cs" />
+     <Compile Include="Assets\Game 6\Scripts\Chapter6\hintmater.cs" />
+     <Compile Include="Assets\Game 6\Scripts\Chapter6\Nilai.cs" />
+     <Compile Include="Assets\Game 6\Scripts\Chapter6\PointClick.cs" />
+     <Compile Include="Assets\Game 6\Scripts\Chapter6\trackingclicks.cs" />
+     <Compile Include="Assets\Game 6\Scripts\Chapter6\Waktu.cs" />
      <Compile Include="Assets\Scripts\ScrollRact.cs" />
      <Compile Include="Assets\Sprites\UI\SettingPanel\LeanTween\LeanAudio.cs" />
      <Compile Include="Assets\Sprites\UI\SettingPanel\LeanTween\LeanTest.cs" />
@@ -137,6 +253,7 @@
      <Compile Include="Assets\UI\Scripts\UI\ToggleHandler.cs" />
      <None Include="Assets\Scripts\Chapter4\GameController.txt" />
      <None Include="Assets\Scripts\Chapter4\GameDataEditor.txt" />
+     <None Include="Assets\Game 5\Plugins\GoKit\easing\easeEquationsLicense.txt" />
      <None Include="Assets\Scripts\Chapter4\DataController.txt" />
      <None Include="Assets\Scripts\Chapter4\PlayerProgress.txt" />
  <Reference Include="UnityEngine.UI">
@@ -178,6 +295,10 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{66A99437-8DAD-090B-D839-3395815D9863}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

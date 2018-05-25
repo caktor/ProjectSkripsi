@@ -3,43 +3,47 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour {
-    public GameObject[] objectSpawn;
-    public Transform[] spawnPoints;
+    public GameObject[] objectsSliced;
+	private float lastCreated;
 
-    public float minDelay = .1f;
-    public float maxDelay = 1f;
 
-    void Start()
-    {
-        StartCoroutine(SpawnObject());
-        StartCoroutine(SpawnObject2());
-    }
-    IEnumerator SpawnObject()
-    {
-        while (true)
-        {
-            float delay = Random.Range(minDelay, maxDelay);
-            yield return new WaitForSeconds(delay);
+	public TextMesh scoreSenyawaLabel;
+	public static int scoreSenyawa;
+	public int ScoreSenyawa
+	{
+		set
+		{
+			scoreSenyawa = value;
 
-            int spawnIndex = Random.Range(0, spawnPoints.Length);
-            Transform spawnPoint = spawnPoints[spawnIndex];
-            GameObject spawnObject = Instantiate(objectSpawn[0], spawnPoint.position, spawnPoint.rotation);
+			scoreSenyawaLabel.text = "Score: "+ScoreSenyawa.ToString();
+		}
+		get
+		{
+			return scoreSenyawa;
+		}
+	}
 
-            Destroy(spawnObject, 5f);
-        }
-    }
-    IEnumerator SpawnObject2()
-    {
-        while (true)
-        {
-            float delay = Random.Range(minDelay, maxDelay);
-            yield return new WaitForSeconds(delay);
+	private float speed;
 
-            int spawnIndex = Random.Range(0, spawnPoints.Length);
-            Transform spawnPoint = spawnPoints[spawnIndex];
-            GameObject spawnObject = Instantiate(objectSpawn[1], spawnPoint.position, spawnPoint.rotation);
+	void Start () 
+	{
+		scoreSenyawa = 0;
+		lastCreated = 0;
 
-            Destroy(spawnObject, 5f);
-        }
-    }
+		lastCreated = Time.time;
+
+		speed =2.5f;
+
+		Invoke("CreateObjects", 0.5f);
+	}
+
+	void CreateObjects()
+	{
+		Instantiate(objectsSliced[Random.Range(0,objectsSliced.Length)], 
+        new Vector3(Random.Range(-5.5f, 5.6f), -8f, 0) ,Quaternion.identity);
+
+		if (ScoreSenyawa % 5 == 0)
+			speed -= 0.1f;
+		Invoke("CreateObjects", speed);
+	}
 }

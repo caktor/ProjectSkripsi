@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class BookManager : MonoBehaviour {
 
     private Animator m_animator;
-    public GameObject PopupConfig;
-    public GameObject SelectSubLevel;
+    //public GameObject PopupConfig;
+    //public GameObject SelectSubLevel;
     
     
 	// Use this for initialization
@@ -80,9 +80,7 @@ public class BookManager : MonoBehaviour {
 						m_animator.SetBool("SelectSubLevel6", true);
 						break;*/
                     
-                    case "BtnConfig":
-                        PopupConfig.GetComponent<Dialog>().Show();
-                        break;
+                    
                     case "BtnAchievement":
                         m_animator.SetBool("Open", true);
                         m_animator.SetBool("Achievement", true);
@@ -104,7 +102,7 @@ public class BookManager : MonoBehaviour {
                         {
                             Debug.Log("DISBALE SELECTSUBLEVEL");
                             m_animator.SetBool("SelectSubLevel", false);
-                            SelectSubLevel.SetActive(false);
+                            //SelectSubLevel.SetActive(false);
 
                         }
                         break;
