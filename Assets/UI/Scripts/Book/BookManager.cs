@@ -54,6 +54,11 @@ public class BookManager : MonoBehaviour {
 					SceneManager.LoadScene ("Materi");
 					Debug.Log ("materi");	
 					break;
+
+				case "animasi":
+					SceneManager.LoadScene ("Animasi");
+					Debug.Log ("animasi");
+					break;
                     /*case "chap1":
                         Store.SetCurrentLevel(1);
                         m_animator.SetBool("SelectSubLevel", true);
