@@ -194,7 +194,10 @@
      <Compile Include="Assets\Game 6\Scripts\Chapter6\scoreSaver.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\trackingclicks.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\Waktu.cs" />
+     <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
      <Compile Include="Assets\Scripts\ButtonManager.cs" />
+     <Compile Include="Assets\Scripts\DontDestroyMe.cs" />
+     <Compile Include="Assets\Scripts\GameScene.cs" />
      <Compile Include="Assets\Scripts\ScrollRact.cs" />
      <Compile Include="Assets\Sprites\UI\SettingPanel\LeanTween\LeanAudio.cs" />
      <Compile Include="Assets\Sprites\UI\SettingPanel\LeanTween\LeanTest.cs" />

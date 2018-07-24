@@ -55,9 +55,9 @@ public class BookManager : MonoBehaviour {
 					Debug.Log ("materi");	
 					break;
 
-				case "animasi":
-					SceneManager.LoadScene ("Animasi");
-					Debug.Log ("animasi");
+				case "KD":
+					SceneManager.LoadScene ("KD");
+					Debug.Log ("kompetensi dasar");
 					break;
                     /*case "chap1":
                         Store.SetCurrentLevel(1);
