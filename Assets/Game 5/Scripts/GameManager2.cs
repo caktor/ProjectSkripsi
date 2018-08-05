@@ -47,21 +47,38 @@ public class GameManager2 : MonoBehaviour
 
 		lastCreated = Time.time;
 
-		speed = 3f;
 
-		Invoke("CreateObjects", 0.5f);
+		Invoke("CreateObjects", 3f);
+
+        Invoke("CreateObjects1", 10f);
+        Invoke("CreateObjects2", 15f);
     }
     
 	void CreateObjects()
 	{
         
-		Instantiate(balon[Random.Range(0,balon.Length)], new Vector3(Random.Range(5f,14f), 9f, 0) ,Quaternion.identity);
-		if (Score % 5 == 0)
-			speed -= 0.01f;
-        if(speed<=0.5f){
-            speed =2f;
+		Instantiate(balon[Random.Range(0,balon.Length)], new Vector3(5f, 9f, 0) ,Quaternion.identity);
+
+        if(speed<=5f){
+            speed =15f;
         }
 		Invoke("CreateObjects", speed);
+	}
+    void CreateObjects1()
+	{
+        Instantiate(balon[Random.Range(0,balon.Length)], new Vector3(8f, 9f, 0) ,Quaternion.identity);
+        if(speed<=5f){
+            speed =10f;
+        }
+		Invoke("CreateObjects1", speed);
+	}
+    void CreateObjects2()
+	{
+        Instantiate(balon[Random.Range(0,balon.Length)], new Vector3(11f, 9f, 0) ,Quaternion.identity);
+        if(speed<=5f){
+            speed =20f;
+        }
+		Invoke("CreateObjects2", speed);
 	}
     // Update is called once per frame
     void Update()
