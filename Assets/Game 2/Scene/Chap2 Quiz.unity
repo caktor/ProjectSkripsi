@@ -1186,7 +1186,7 @@ MonoBehaviour:
   resultObj: {fileID: 1728965085}
   auraobj: {fileID: 1152772264}
   totalBenar: 0
-  totalPertanyaan: 20
+  totalPertanyaan: 15
   scoreQuizSlashLabel: {fileID: 1011513036}
 --- !u!102 &1110985686
 TextMesh:

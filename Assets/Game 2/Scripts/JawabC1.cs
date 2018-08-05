@@ -4,25 +4,21 @@ using UnityEngine;
 
 public class JawabC1 : MonoBehaviour {
 	private List<string> pilihanC = new List<string>(){
-"c.  Reaksi yang menyebabkan garam terdisosiasi \nmenjadi ion-ionnya"
-,"c. Karena KCl jika direaksikan dengan air tidak \nakan bereaksi membentuk KOH maupun HCl kembali, melainkan terdisosiasi membenuk ion K<size=20>+</size> dan Cl<size=20>-</size>."
-,"c. Karena NH<size=20>4</size>CN berasal dari asam lemah – basa kuat"
-,"c. Karena CH<size=20>3</size>COONa berasal dari asam lemah – basa kuat"
-,"c. NH<size=20>4</size>Br"
+"c.	NH<size=20>4</size>Br"
 ,"c. NH<size=20>4</size>CH<size=20>3</size>COO"
 ,"c. CH<size=20>3</size>COOK"
 ,"c. CH<size=20>3</size>COONH<size=20>4</size>"
-,"c. NH<size=20>4</size>F"
-,"c. CaSO<size=20>4</size>"
-,"c. Termasuk garam yang mengalami hidrolisis sempurna"
-,"c. Termasuk garam yang mengalami hidrolisis sempurna"
-,"c. Termasuk garam yang mengalami hidrolisis sempurna"
-,"c. CH<size=20>3</size>COOH dan Mg(OH)<size=20>2</size>"
-,"c. H<size=20>2</size>SO<size=20>4</size> dan Mg(OH)<size=20>2</size>"
-,"c. H<size=20>2</size>SO<size=20>4</size> dan Mg(OH)<size=20>2</size>"
-,"c. Akan menghasilkan garam yang terhidrolisis sebagian"
-,"c. Akan menghasilkan garam yang terhidrolisis sebagian"
-,"c. Akan menghasilkan garam yang terhidrolisis sebagian"
+,"c. KNO<size=20>3</size>"
+,"c. NaSO<size=20>4</size>"
+,"c. Memiliki pH netral"
+,"c. Jika dilarutkan dalam air akan membentuk asam-basa \npembentuknya kembali"
+,"c. Merupakan garam yang memiliki pH basa"
+,"c. CH<size=20>3</size>COOH dan KOH"
+,"c. HCl dan KOH"
+,"c. H<size=20>2</size>SO<size=20>4</size> dan NH<size=20>3</size>"
+,"c. Akan menghasilkan larutan garam dengan pH kurang dari 7"
+,"c. Akan membentuk basa pembentuknya kembali"
+,"c. Akan menghasilkan larutan garam dengan pH lebih dari 7"
 	};
 	void Update()
 	{

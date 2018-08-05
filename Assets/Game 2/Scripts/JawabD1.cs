@@ -5,25 +5,21 @@ using UnityEngine;
 public class JawabD1 : MonoBehaviour {
 
 	private List<string> pilihanD = new List<string>(){
-"d. Reaksi antara air dengan ion-ion yang berasal dari\n senyawa kompleks"
-,"d. Karena KCl jika direaksikan dengan air tidak akan \nbereaksi dan membentuk ion OH<size=20>-</size> dan H<size=20>+</size>"
-,"d. Karena NH<size=20>4</size>CN berasal dari asam kuat – basa lemah"
-,"d. Karena CH<size=20>3</size>COONa berasal dari asam kuat – basa lemah"
-,"d. (NH<size=20>4</size>)<size=20>2</size>SO<size=20>2</size>"
+"d.	(NH<size=20>4</size>)<size=20>2</size>SO<size=20>4</size>"
 ,"d. KCN"
 ,"d. Ca(CN)<size=20>2</size>"
 ,"d. (NH<size=20>4</size>)<size=20>2</size>S"
-,"d. Mg(CN)<size=20>2</size>"
-,"d. Ca(CN)<size=20>2</size>"
-,"d. Bukan termasuk garam"
-,"d. Bukan termasuk garam"
-,"d. Bukan termasuk garam"
-,"d. H<size=20>2</size>S dan Al(OH)<size=20>3</size>"
-,"d. H<size=20>2</size>S dan Al(OH)<size=20>3</size>"
-,"d. H<size=20>2</size>S dan Al(OH)<size=20>3</size>"
-,"d. Akan menghasilkan garam kompleks"
-,"d. Akan menghasilkan garam kompleks"
-,"d. Akan menghasilkan garam kompleks"
+,"d. KCN"
+,"d. NH<size=20>4</size>CH<size=20>3</size>COO"
+,"d. Memiliki pH sedikit asam"
+,"d. Jika dilarutkan dalam air tidak akan membentuk \nasam-basa pembentuknya "
+,"d. Merupakan garam yang memiliki pH alkalin"
+,"d. HBr dan NH<size=20>3</size>"
+,"d. H<size=20>2</size>CO<size=20>3</size> dan NaOH"
+,"d. HNO<size=20>3</size> dan NaOH"
+,"d. Akan menghasilkan larutan garam dengan pH sama dengan 14"
+,"d. Tidak  membentuk asam dan basa penyusunya kembali"
+,"d. Akan menghasilkan larutan garam dengan pH sama dengan 3"
 	};
 	void Update()
 	{

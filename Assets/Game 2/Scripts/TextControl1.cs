@@ -7,32 +7,27 @@ using UnityEngine.UI;
 public class TextControl1 : MonoBehaviour {
 
 	private List<string> question = new List<string>(){
-"Pernyataan yang salah mengenai\n hidrolisis garam adalah ..."
-,"Mengapa KCl merupakah garam \ntidak terhidrolisis ?"
-,"Mengapa NH4CN merupakan garam \nyang mengalami hidrolisis secara sempurna?"
-,"Mengapa CH3COONa merupakan garam\n yang mengalami hidrolisis sebagian?"
-,"Dibawah ini manakah garam yang mengalami\n hidrolisis secara sempurna?"
-,"Dibawah ini manakah garam yang mengalami\n hidrolisis sebagian?"
-,"Dibawah in manakah garam yang tidak\n terhidrolisis?"
-,"Berikut ini garam yang mengalami \nhidrolisis sempurna, kecuali ..."
-,"Berikut ini garam yang mengalami \nhidrolisis sebagian, kecuali ..."
-,"Berikut ini garam yang tidak terhidrolisis,\nkecuali ..."
-,"Berikut ini pernyataan yang benar \nmengenai Na3PO4 adalah ..."
-,"Berikut ini pernyataan yang benar \nmengenai (NH4)2S adalah ..."
-,"Berikut ini pernyataan yang benar \nmengenai KNO3 adalah ..."
-,"Manakah pasangan asam – basa yang akan \nmenghasilkan garam tidak terhidrolisis?"
-,"Manakah pasangan asam – basa yang akan \nmenghasilkan garam terhidrolisis "
-,"Manakah pasangan asam – basa yang akan \nmenghasilkan garam terhidrolisis sebagian?"
-,"Pernyataan yang benar mengenai pasangan \nasam – basa  HI dan KOH adalah ..."
-,"Pernyataan yang benar mengenai pasangan \nasam – basa H2CO3 dan NH4OH adalah ..."
-,"Pernyataan yang benar mengenai pasangan \nasam – basa Ca(OH)2 dan CH3COOH adalah ..."
+"Dibawah ini manakah garam yang pH nya ditentukan \n oleh Ka maupun Kb?"
+,"Dibawah ini manakah garam yang pH nya lebih\n dari 7?"
+,"Dibawah in manakah garam yang memiliki pH sama \ndengan 7?"
+,"Berikut ini garam yang pH nya ditentukan oleh Ka \ndan Kb, kecuali ..."
+,"Berikut ini garam yang akan menghasilkan asam \npembentuknya kembali jika dilarutkan dalam air, kecuali ..."
+,"Berikut ini garam yang memiliki pH netral, kecuali ..."
+,"Berikut ini pernyataan yang benar mengenai Na3PO4 \nadalah ..."
+,"Berikut ini pernyataan yang benar mengenai (NH4)2S \nadalah ..."
+,"Berikut ini pernyataan yang benar mengenai KNO3 \nadalah ..."
+,"Manakah pasangan asam – basa yang akan menghasilkan \ngaram  dengan pH sama dengan 7?"
+,"Manakah pasangan asam – basa yang akan menghasilkan \n garam dengan pH lebih dari 7?"
+,"Pernyataan yang benar mengenai pasangan asam – basa  \nHI dan KOH adalah ..."
+,"Pernyataan yang benar mengenai pasangan asam – basa \nH2CO3 dan NH3 jika dilarutkan dalam air adalah ..."
+,"Pernyataan yang benar mengenai pasangan asam – basa \nKOH dan HCN adalah ..."
 	};
 	private List<string> correctAnswer = new List<string>(){
-		"4","3","1","2","2","4","1","2","3","4","2","3","1","1","3","2","1","2","3"
+		"2","4","1","2","3","4","2","3","1","1","3","2","1","2","3"
 	};
 	private List<int> previousQuestion = new List<int>(){
 		-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
-		-1,-1,-1,-1,-1,-1,-1,-1
+		-1,-1,-1,-1
 	};
 	public static int questionNumberSlash =0;
 	public int klik;
@@ -42,7 +37,7 @@ public class TextControl1 : MonoBehaviour {
 	public static string choiceSelectedSlash = "n";
 	public static int randQuestionSlash=-1;
 	public float totalBenar=0;
-	public float totalPertanyaan=20;
+	public float totalPertanyaan=15;
 	public TextMesh scoreQuizSlashLabel;
 	public static float scoreQuizSlash;
 	public float ScoreQuizSlash
@@ -68,11 +63,11 @@ public class TextControl1 : MonoBehaviour {
 	{
 		
 		float akumulasi =(totalBenar/totalPertanyaan)*100;
-		scoreQuizSlashLabel.GetComponent<TextMesh>().text = "Score :"+ akumulasi;
+		scoreQuizSlashLabel.GetComponent<TextMesh>().text = "Score :"+ akumulasi.ToString("0");
 		scoreQuizSlash=akumulasi;
 		if(randQuestionSlash ==-1){
-			randQuestionSlash = UnityEngine.Random.Range(0,18);
-			for(int i=0;i<19;i++){
+			randQuestionSlash = UnityEngine.Random.Range(0,14);
+			for(int i=0;i<15;i++){
 				if(randQuestionSlash!=previousQuestion[i]){
 					
 				}else{
@@ -85,9 +80,9 @@ public class TextControl1 : MonoBehaviour {
 			GetComponent<TextMesh>().text = question[randQuestionSlash];
 			previousQuestion [questionNumberSlash]= randQuestionSlash;
 		}
-		if(questionNumberSlash==18){
+		if(questionNumberSlash==14){
 			questionNumberSlash=0;
-			resultObj.GetComponent<TextMesh>().text = "Hebat !,Kamu telah\n menyelesaikan 20 pertanyaan";
+			resultObj.GetComponent<TextMesh>().text = "Hebat !,Kamu telah\n menyelesaikan 15 pertanyaan";
 			Application.LoadLevel("Chap2 MainMenu");
 		}
 

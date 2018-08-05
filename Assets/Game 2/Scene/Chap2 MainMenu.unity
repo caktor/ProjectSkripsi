@@ -2145,7 +2145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.4499998, y: -472.1}
+  m_AnchoredPosition: {x: 3.449997, y: -472.10004}
   m_SizeDelta: {x: -23.9, y: 944.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640740190
@@ -2189,9 +2189,9 @@ MonoBehaviour:
     jika pemain memotong\r\n\tsenyawa garam tidak terhidrolisis maka poin \n\takan
     berkurang 10.\n\n-> Pemain harus memotong senyawa garam \n\tterhidrolisis sebanyak-banyak\r
     dalam waktu 1 \n\tmenit.\n\n-> Di akhir permainan akan muncul skor yang \n\tdiperoleh
-    oleh pemain.\n\n\nCara Bermain Quiz:\n-> Ada 20 pertanyaan tentang senyawa garam
+    oleh pemain.\n\n\nCara Bermain Quiz:\n-> Ada 15 pertanyaan tentang senyawa garam
     yang \n\tterhidrolisis dan senyawa garam yang tidak \n\tterhidrolisis.\n\n->Jika
-    jawaban kamu benar akan mendapatakn skor \n\tsebanyak 5 poin.\n\n->jika jawaban
+    jawaban kamu benar akan mendapatakn skor \n\tsebanyak 7 poin.\n\n->jika jawaban
     kamu salah kamu tidak mendapatkan \n\tpoin dan akan muncul objek bewarna hijau
     \n\tyang menunjukan jawaban yang benar.\n\n->klik button back untuk kemabli ke
     main menu.\n\n->klik sound untuk mematikan sound dan klik kembali \n\tuntuk mengaktifkan

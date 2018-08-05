@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runningTime: {fileID: 11602245}
-  startingTime: 30
+  startingTime: 60
 --- !u!1 &48017789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,26 +1083,6 @@ MonoBehaviour:
   - {fileID: 1849043597141034, guid: 5bb7ae114689c00489b15c206bca4f0c, type: 2}
   - {fileID: 1117978099351396, guid: 04b316eab2da3d442a5e6d20a1e86f3c, type: 2}
   - {fileID: 1849043597141034, guid: 4ca068a0c4c639246aea435d81f435f4, type: 2}
-  - {fileID: 1117978099351396, guid: 92cb74b86f155254d86aec3edff592e9, type: 2}
-  - {fileID: 1849043597141034, guid: 9cb5103dbc3bf9b428bc0131a30abbbd, type: 2}
-  - {fileID: 1117978099351396, guid: aeceff730158cac4aacacae1bef705df, type: 2}
-  - {fileID: 1117978099351396, guid: 3342a4029b0c5404f938f91aa350a033, type: 2}
-  - {fileID: 1849043597141034, guid: 623ae7478af64b84793c0c2f671b2752, type: 2}
-  - {fileID: 1849043597141034, guid: b9448c954d9a17e43aed54f83ea4ae24, type: 2}
-  - {fileID: 1849043597141034, guid: 9158b95601c62d8438e02abd8539a837, type: 2}
-  - {fileID: 1849043597141034, guid: 4e260786c9c6f394bb6fce815598b857, type: 2}
-  - {fileID: 1117978099351396, guid: f444adef81246ad40b4a603b7b928f0b, type: 2}
-  - {fileID: 1849043597141034, guid: 684be01a4a74c0c478be8ed8a0598ac7, type: 2}
-  - {fileID: 1849043597141034, guid: 7291e423c4c3a0f44b4cc3f12a6ce2f4, type: 2}
-  - {fileID: 1849043597141034, guid: a5fef0b2d83ff3e4eaaee8f0294db76f, type: 2}
-  - {fileID: 1117978099351396, guid: 20634336c70c4e145a925cdcb06375ef, type: 2}
-  - {fileID: 1117978099351396, guid: 9caeaf1f0a0bf1a47bed6e850ae67a01, type: 2}
-  - {fileID: 1117978099351396, guid: b2b51b560a79e104387624cf4c0bfcec, type: 2}
-  - {fileID: 1849043597141034, guid: 638f7e70255bdae40bced0b863abe97f, type: 2}
-  - {fileID: 1849043597141034, guid: bd2953cf57d543b47ab1c83404dec559, type: 2}
-  - {fileID: 1849043597141034, guid: 4e2f532c32aac084bb497ba115f25ee4, type: 2}
-  - {fileID: 1117978099351396, guid: ee755ba58d3c05949b2e0e68a1bc5524, type: 2}
-  - {fileID: 1849043597141034, guid: a0753de7c617d9c47b25f43d1183f329, type: 2}
   scoreSenyawaLabel: {fileID: 731221317}
 --- !u!4 &1515402181
 Transform:

@@ -43,7 +43,7 @@ public class ObjectSpawner : MonoBehaviour {
         new Vector3(Random.Range(-5.5f, 5.6f), -8f, 0) ,Quaternion.identity);
 
 		if (ScoreSenyawa % 5 == 0)
-			speed -= 0.1f;
+			speed -= 0.01f;
 		Invoke("CreateObjects", speed);
 	}
 }

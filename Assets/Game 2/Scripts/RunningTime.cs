@@ -17,7 +17,7 @@ public class RunningTime : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		currentTime-= Time.deltaTime;
+		currentTime -= Time.deltaTime;
 		if(currentTime<=0){
 			currentTime =0;
 			Application.LoadLevel("Chap2 MainMenu");
