@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game 1\Scripts\TextControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game 5\Scripts\AudioController2.cs">
     <Files>
       <File FileName="Assets\UI\Scripts\Book\Menu\SelectSubLevelItem.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ScrollRact.cs" Line="1" Column="1" />
@@ -24,6 +24,7 @@
       <File FileName="Assets\Scripts\ButtonManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Game 2\Scripts\InstruksiControl1.cs" Line="1" Column="1" />
       <File FileName="Assets\Game 1\Scripts\TextControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game 5\Scripts\AudioController2.cs" Line="21" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 8
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,7 +39,6 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
-  m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -55,10 +54,11 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -116,9 +116,9 @@ NavMeshSettings:
 --- !u!1 &393597839
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 393597841}
   - component: {fileID: 393597840}
@@ -132,7 +132,7 @@ GameObject:
 --- !u!114 &393597840
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 393597839}
   m_Enabled: 1
@@ -143,9 +143,9 @@ MonoBehaviour:
   allRoundData:
   - name: Round 1
     timeLimitInSeconds: 300
-    pointsAddedForCorrectAnswer: 10
+    pointsAddedForCorrectAnswer: 5
     questions:
-    - questionText: "Manakah garam yang tersusun dari asam kuat \u2013 basa lemah?"
+    - questionText: Manakah garam yang kemungkinan bersifat asam?
       answers:
       - answerText: NaCl
         isCorrect: 0
@@ -153,9 +153,10 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: KNO3
         isCorrect: 0
-      - answerText: NH4
+      - answerText: NH4Cl
         isCorrect: 1
-    - questionText: "Manakah garam yang tersusun dari asam lemah \u2013 basa lemah?"
+    - questionText: Manakah garam yang sifatnya ditentukan dari besar nilai Ka dan
+        Kb?
       answers:
       - answerText: NH4CN
         isCorrect: 1
@@ -165,17 +166,17 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: CH3COOK
         isCorrect: 0
-    - questionText: "Manakah garam yang tersusun dari asam lemah \u2013 basa kuat?"
+    - questionText: Manakah garam yang kemungkinan bersifat basa?
       answers:
       - answerText: CH3COOK
         isCorrect: 1
       - answerText: NaCl
-        isCorrect: 1
+        isCorrect: 0
       - answerText: NH4Cl
         isCorrect: 0
       - answerText: NH4CN
         isCorrect: 0
-    - questionText: "Manakah garam yang tersusun dari asam kuat \u2013 basa kuat?"
+    - questionText: Manakah garam yang kemungkinan bersifat netral?
       answers:
       - answerText: K2S
         isCorrect: 0
@@ -185,7 +186,7 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: NH4Cl
         isCorrect: 0
-    - questionText: "Manakah garam yang tersusun dari asam kuat \u2013 basa lemah?"
+    - questionText: Manakah garam yang kemungkinan bersifat asam?
       answers:
       - answerText: CH3COONH4
         isCorrect: 0
@@ -195,7 +196,7 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: BaCl2
         isCorrect: 0
-    - questionText: "Manakah garam yang tersusun dari asam lemah \u2013 basa kuat? "
+    - questionText: 'Manakah garam yang kemungkinan bersifat basa? '
       answers:
       - answerText: Kl
         isCorrect: 0
@@ -205,7 +206,8 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: KCN
         isCorrect: 1
-    - questionText: "Manakah garam yang tersusun dari asam lemah \u2013 basa lemah?"
+    - questionText: Manakah garam yang sifatnya ditentukan dari besar nilai Ka dan
+        Kb?
       answers:
       - answerText: BaSO4
         isCorrect: 0
@@ -215,7 +217,7 @@ MonoBehaviour:
         isCorrect: 1
       - answerText: KCN
         isCorrect: 0
-    - questionText: "Manakah garam yang tersusun dari asam kuat \u2013 basa kuat?"
+    - questionText: Manakah garam yang kemungkinan bersifat netral?
       answers:
       - answerText: BaCl2
         isCorrect: 1
@@ -225,35 +227,35 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: NaCl
         isCorrect: 0
-    - questionText: Manakah pernyataan yang benar mengenai Al2(SO4)3?
+    - questionText: Manakah pernyataan yang benar mengenai garam (NH4)2SO4?
       answers:
-      - answerText: Garam yang tersusun dari asam lemah - basa lemah
+      - answerText: Larutan bersifat basa
         isCorrect: 0
-      - answerText: Garam yang tersusun dari asam kuat - basa lemah
+      - answerText: Larutan bersifat asam
         isCorrect: 1
-      - answerText: Garam yang tersusun dari asam kuat - basa kuat
+      - answerText: Larutan bersifat netral
         isCorrect: 0
-      - answerText: Garam yang tersusun dari asam lemah - basa kuat
+      - answerText: Larutan bersifat seperti garam NH4CN
         isCorrect: 0
-    - questionText: Manakah pernyataan yang benar mengenai KCN?
+    - questionText: Manakah pernyataan yang benar mengenai garam KCN?
       answers:
-      - answerText: Sifatnya sama dengan KCl
+      - answerText: Larutan bersifat seperti garam KCl
         isCorrect: 0
-      - answerText: Tersusun dari asam lemah - basa kuat
+      - answerText: Larutan bersifat basa
         isCorrect: 1
-      - answerText: Sifatnya sama dengan KNO
+      - answerText: Larutan bersifat asam
         isCorrect: 0
-      - answerText: Tidak bereaksi dengan air
+      - answerText: Larutan bersifat netral
         isCorrect: 0
-    - questionText: Manakah pernyataan yang benar mengenai NH4CN?
+    - questionText: Manakah pernyataan yang benar mengenai garam BaCl2?
       answers:
-      - answerText: Mengalami hidrolisis sepurna
+      - answerText: Larutan bersifat netral
         isCorrect: 1
-      - answerText: Mengalami hidrolisis sebagian
+      - answerText: Larutan bersifat asam
         isCorrect: 0
-      - answerText: Tidak mengalami hidrolisis
+      - answerText: Larutan bersifat basa
         isCorrect: 0
-      - answerText: Betul semua
+      - answerText: Larutan bersifat seperti garam NH4Cl
         isCorrect: 0
     - questionText: Manakah pernyataan yang benar mengenai Ba(NO3)2?
       answers:
@@ -265,7 +267,8 @@ MonoBehaviour:
         isCorrect: 1
       - answerText: Mengalami hidrolisis sempurna
         isCorrect: 0
-    - questionText: Manakah garam di bawah ini yang terhidrolisis secara sempurna?
+    - questionText: Manakah garam di bawah ini yang mengalami hidrolisis secara sempurna
+        jika dilarutkan dalam air?
       answers:
       - answerText: KNO3
         isCorrect: 0
@@ -275,7 +278,8 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: NH4CN
         isCorrect: 1
-    - questionText: Manakah garam di bawah ini yang tidak mengalami hidrolisis?
+    - questionText: Manakah garam di bawah ini yang tidak mengalami hidrolisis jika
+        dilarutkan dalam air?
       answers:
       - answerText: Nh4Cl
         isCorrect: 0
@@ -285,7 +289,8 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: BaCl2
         isCorrect: 1
-    - questionText: Manakah garam di bawah ini yang terhidrolisis sebagian?
+    - questionText: Manakah garam di bawah ini yang mengalami hidrolisis sebagian
+        jika dilarutkan dalam air?
       answers:
       - answerText: CaS
         isCorrect: 1
@@ -295,10 +300,64 @@ MonoBehaviour:
         isCorrect: 0
       - answerText: Kl
         isCorrect: 0
+    - questionText: Di bawah ini merupakan garam yang larutannya bersifat basa, kecuali?
+      answers:
+      - answerText: KF
+        isCorrect: 0
+      - answerText: NH4F
+        isCorrect: 1
+      - answerText: BaF2
+        isCorrect: 0
+      - answerText: NaF
+        isCorrect: 0
+    - questionText: Di bawah ini merupakan garam yang larutannya bersifat netral,
+        kecuali?
+      answers:
+      - answerText: KBr
+        isCorrect: 0
+      - answerText: MgBr2
+        isCorrect: 0
+      - answerText: NaBr
+        isCorrect: 0
+      - answerText: AlBr3
+        isCorrect: 1
+    - questionText: "Di bawah ini merupakan garam yang terbentuk dari asam lemah \u2013
+        basa lemah, kecuali?"
+      answers:
+      - answerText: NH4Br
+        isCorrect: 1
+      - answerText: NH4F
+        isCorrect: 0
+      - answerText: NH4CN
+        isCorrect: 0
+      - answerText: (NH4)2S
+        isCorrect: 0
+    - questionText: "Di bawah ini merupakan garam yang terbentuk dari asam kuat \u2013
+        basa lemah, kecuali?"
+      answers:
+      - answerText: AlBr3
+        isCorrect: 0
+      - answerText: NH4Br
+        isCorrect: 0
+      - answerText: Al(NO3)3
+        isCorrect: 0
+      - answerText: NH4HCO3
+        isCorrect: 1
+    - questionText: Manakah reaksi hidrolisis garam yang sifat larutannya tergantung
+        pada Ka dan Kb?
+      answers:
+      - answerText: "NH4CN(aq)+H2O(l)\tNH3.H2O(aq)+HCN(aq)"
+        isCorrect: 1
+      - answerText: "NaCl (aq) \tNa+(aq)+Cl-(aq)"
+        isCorrect: 0
+      - answerText: "K2SO4(aq)\t   2K+(aq)+SO42-(aq)"
+        isCorrect: 0
+      - answerText: "NaCN (aq)+H2O(l)\tNa+(aq) + HCNaq)+ OH-(aq)"
+        isCorrect: 0
 --- !u!4 &393597841
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 393597839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -311,9 +370,9 @@ Transform:
 --- !u!1 &1588335928
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 1588335932}
   - component: {fileID: 1588335931}
@@ -329,31 +388,27 @@ GameObject:
 --- !u!81 &1588335929
 AudioListener:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588335928}
   m_Enabled: 1
 --- !u!124 &1588335930
 Behaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588335928}
   m_Enabled: 1
 --- !u!20 &1588335931
 Camera:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588335928}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -383,7 +438,7 @@ Camera:
 --- !u!4 &1588335932
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1588335928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
