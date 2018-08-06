@@ -187,6 +187,7 @@
      <Compile Include="Assets\Game 5\Scripts\Projectile.cs" />
      <Compile Include="Assets\Game 5\Scripts\SetScore2.cs" />
      <Compile Include="Assets\Game 5\Scripts\SlingShot.cs" />
+     <Compile Include="Assets\Game 5\Scripts\SpriteColorChanger.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\clickcontrol.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\GameNilai.cs" />
      <Compile Include="Assets\Game 6\Scripts\Chapter6\hintmater.cs" />
